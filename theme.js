@@ -29,5 +29,5 @@ var toggleTheme = function () {
 
 // Make sure there's a theme when you load the page
 loadTheme()
-// Initiate toggle button 
+// Initiate toggle button
 toggleButton.addEventListener('click', toggleTheme)
