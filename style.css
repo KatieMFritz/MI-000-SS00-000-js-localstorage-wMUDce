@@ -1,4 +1,49 @@
+/* Layout */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 5em auto;
+  padding: 2em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  font-size: 1em;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+/* Day theme */
+
+body.day-theme {
+  background: linear-gradient(#c7eaf2, #019fde);
+  color: #333;
+}
+
+.day-theme .container {
+  background-color: white;
+}
+
+/* Night theme */
+
+body.night-theme {
+  background: linear-gradient(#373177, #0e0d32);
+  color: #fff;
+}
+
+.night-theme .container {
+  background-color: #350741;
 }
